@@ -72,9 +72,10 @@ img {
   }
 
   footer {
-    height: auto !important;
+    height: 100% !important;
     padding-top: 20px;
     padding-bottom: 20px;
+    min-height: 80px;
   }
 
   .button-wrapper--bottom {
@@ -164,6 +165,7 @@ button.intro {
 
 footer {
   height: auto;
+  min-height: 80px;
   margin-top: 80px;
 
   .row {
