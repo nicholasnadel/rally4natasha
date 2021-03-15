@@ -9,6 +9,18 @@ p,
 a {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
+ol li {
+  counter-increment: list;
+  list-style-type: none;
+  position: relative; }
+
+.faux-h1 {
+  font-size: 2.5rem; }
+
+.m-80 {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
 .section {
   margin-top: 80px;
   display: flex;
@@ -21,6 +33,10 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
+  .intro-text .button-wrapper {
+    width: 100%; }
+  .intro-text p {
+    width: 100%; }
 
 button.intro {
   align-self: start; }
@@ -36,14 +52,18 @@ button.intro {
   border-radius: 5px; }
 
 .image-wrapper.circle {
-  max-width: 300px;
+  max-width: 500px;
   border-radius: 50%;
-  height: 300px;
+  height: 500px;
   object-fit: cover;
   object-position: center center;
   overflow: hidden; }
 .image-wrapper.natasha-sarah {
   display: flex;
   justify-content: center; }
+
+.align-center {
+  display: flex;
+  align-items: center; }
 
 /*# sourceMappingURL=styles.css.map */
