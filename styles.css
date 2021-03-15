@@ -62,7 +62,8 @@ button.intro {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  width: max-content; }
 .about-natasha hr {
   max-width: 80px;
   border: 2px solid #231f20;
