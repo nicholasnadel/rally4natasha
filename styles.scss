@@ -29,6 +29,28 @@ li {
   align-items: center;
   justify-content: center;
 }
+
+@media only screen and (max-width: 1024px) {
+  .intro-container {
+    .row {
+      display: block;
+    }
+    div#carouselExampleIndicators {
+      margin-top: 80px;
+      width: 100%;
+    }
+    .carousel img {
+      // max-height: 800px;
+      max-height: 500px;
+      min-height: 500px;
+      width: 100%;
+      border-radius: unset;
+      overflow: hidden;
+      object-fit: cover;
+      object-position: top center;
+    }
+  }
+}
 .intro-text {
   display: flex;
   flex-direction: column;
@@ -97,7 +119,7 @@ footer {
 
 li {
   padding-top: 20px;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 .donor-ethnicity {
   justify-content: center;
