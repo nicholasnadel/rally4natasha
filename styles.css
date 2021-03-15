@@ -101,4 +101,12 @@ li {
   display: flex;
   justify-content: center; }
 
+#how .container.text-center {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.factoid {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
 /*# sourceMappingURL=styles.css.map */
