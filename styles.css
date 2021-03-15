@@ -41,6 +41,10 @@ img {
     overflow: hidden;
     object-fit: cover;
     object-position: top center; } }
+@media only screen and (max-width: 600px) {
+  iframe {
+    min-height: 70vw !important;
+    min-width: 90vw !important; } }
 .intro-text {
   display: flex;
   flex-direction: column;
@@ -116,5 +120,9 @@ a.navbar-brand {
 .row {
   margin-right: auto;
   margin-left: auto; }
+
+iframe {
+  min-height: 300px;
+  min-width: 500px; }
 
 /*# sourceMappingURL=styles.css.map */
