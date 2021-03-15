@@ -8,17 +8,13 @@ h4,
 h5,
 h6,
 p,
-a {
+a,
+li {
   // font-family: "Roboto", "Helvetica", "Arial",  sans-serif;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-ol li {
-  counter-increment: list;
-  list-style-type: none;
-  position: relative;
-}
 .faux-h1 {
   font-size: 2.5rem;
 }
@@ -90,5 +86,29 @@ button.intro {
   }
 }
 
-.about-natasha {
+footer {
+  height: 80px;
+  margin-top: 80px;
+
+  .row {
+    justify-content: space-around;
+  }
+}
+
+li {
+  padding-top: 20px;
+  font-size: 18px;
+}
+.donor-ethnicity {
+  justify-content: center;
+}
+
+.carousel img {
+  // max-height: 800px;
+  max-height: 500px;
+  min-height: 500px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: top center;
 }
