@@ -53,11 +53,12 @@ img {
       object-position: top center;
     }
   }
+
   .carousel-indicators {
     bottom: unset;
 
     li {
-      border-radius: unset;
+      border-radius: initial !important;
     }
   }
 }
