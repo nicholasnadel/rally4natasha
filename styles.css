@@ -141,6 +141,7 @@ iframe {
 .carousel-indicators {
   bottom: 60px; }
   .carousel-indicators li {
-    border-radius: 50%; }
+    border-radius: 50%;
+    height: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
