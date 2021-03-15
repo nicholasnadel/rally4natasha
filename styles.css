@@ -45,7 +45,7 @@ img {
   .carousel-indicators {
     bottom: unset; }
     .carousel-indicators li {
-      border-radius: 50%; } }
+      border-radius: unset; } }
 @media only screen and (max-width: 600px) {
   iframe {
     min-height: 70vw !important;
