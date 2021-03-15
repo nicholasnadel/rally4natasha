@@ -45,7 +45,20 @@ img {
   .carousel-indicators {
     bottom: 0 !important; }
     .carousel-indicators li {
-      border-radius: initial !important; } }
+      border-radius: initial !important; }
+
+  footer a {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold; }
+
+  footer {
+    height: auto !important;
+    padding-top: 20px;
+    padding-bottom: 20px; } }
 @media only screen and (max-width: 600px) {
   iframe {
     min-height: 70vw !important;
