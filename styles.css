@@ -40,7 +40,12 @@ img {
     border-radius: unset;
     overflow: hidden;
     object-fit: cover;
-    object-position: top center; } }
+    object-position: top center; }
+
+  .carousel-indicators {
+    bottom: unset; }
+    .carousel-indicators li {
+      border-radius: 50%; } }
 @media only screen and (max-width: 600px) {
   iframe {
     min-height: 70vw !important;
