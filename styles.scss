@@ -55,7 +55,7 @@ img {
   }
 
   .carousel-indicators {
-    bottom: unset;
+    bottom: initial !important;
 
     li {
       border-radius: initial !important;

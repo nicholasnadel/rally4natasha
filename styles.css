@@ -43,7 +43,7 @@ img {
     object-position: top center; }
 
   .carousel-indicators {
-    bottom: unset; }
+    bottom: initial !important; }
     .carousel-indicators li {
       border-radius: initial !important; } }
 @media only screen and (max-width: 600px) {
