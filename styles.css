@@ -133,4 +133,9 @@ iframe {
 .max-width-800 {
   max-width: 800px; }
 
+.carousel-indicators {
+  bottom: 60px; }
+  .carousel-indicators li {
+    border-radius: 50%; }
+
 /*# sourceMappingURL=styles.css.map */
